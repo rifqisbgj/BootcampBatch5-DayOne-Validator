@@ -1,4 +1,3 @@
-const fs = require('fs');
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -28,11 +27,3 @@ readline.question(`Apa namamu? `, nameUser => {
         })
     })
 })
-
-// WriteFileSync
-// fs.writeFileSync('test.txt','Hello Word secara synchronous');
-
-// fs.readFile('test.txt', 'utf-8', (err, data) => {
-//     if (err) throw err;
-//     console.log(data);
-// })
